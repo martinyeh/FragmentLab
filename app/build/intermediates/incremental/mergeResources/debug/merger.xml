@@ -2,28 +2,40 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res" >
+        <source path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res" >
             <file
-                name="ic_launcher"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/drawable-ldpi/ic_launcher.png"
-                qualifiers="ldpi-v4"
-                type="drawable" />
-            <file
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/values/strings.xml"
-                qualifiers="" >
-                <string name="greeting" >Select a feed to view!
-                </string>
-                <string name="title_activity_feed_fragment" >FeedFragment
-                </string>
-                <string name="app_name" >FragmentsLab
-                </string>
-                <string name="title_activity_friends_fragment" >FriendsFragment
-                </string>
-                <string name="menu_settings" >Settings
-                </string>
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
             </file>
             <file
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/values/styles.xml"
+                name="ic_launcher"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/menu/activity_main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="feed"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/menu/feed.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_friends"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/menu/activity_friends.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -45,37 +57,66 @@
                 </style>
             </file>
             <file
-                name="ic_launcher"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="activity_main"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/menu/activity_main.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_friends"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/menu/activity_friends.xml"
-                qualifiers=""
-                type="menu" />
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="greeting" >Select a feed to view!
+                </string>
+                <string name="title_activity_feed_fragment" >FeedFragment
+                </string>
+                <string name="app_name" >FragmentsLab
+                </string>
+                <string name="title_activity_friends_fragment" >FriendsFragment
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+            </file>
             <file
                 name="feed"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/menu/feed.xml"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/layout/feed.xml"
                 qualifiers=""
-                type="menu" />
+                type="layout" />
+            <file
+                name="main_activity"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/layout/main_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="taylorswift"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/raw/taylorswift.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="rebeccablack"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/raw/rebeccablack.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ladygaga"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/raw/ladygaga.txt"
+                qualifiers=""
+                type="raw" />
             <file
                 name="ic_launcher"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/drawable-xhdpi/ic_launcher.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/values-v11/styles.xml"
+                name="main_activity"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/layout-land/main_activity.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="main_activity"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/layout-large/main_activity.xml"
+                qualifiers="large-v4"
+                type="layout" />
+            <file
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -86,57 +127,26 @@
                 </style>
             </file>
             <file
-                name="main_activity"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/layout-land/main_activity.xml"
-                qualifiers="land"
-                type="layout" />
+                name="ic_launcher"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
             <file
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/values-v14/styles.xml"
-                qualifiers="v14" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light.DarkActionBar" >
-
-                    <!-- API 14 theme customizations can go here. -->
-                </style>
-            </file>
+                name="ic_launcher"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+                qualifiers="xxxhdpi-v4"
+                type="drawable" />
             <file
-                name="taylorswift"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/raw/taylorswift.txt"
-                qualifiers=""
-                type="raw" />
-            <file
-                name="rebeccablack"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/raw/rebeccablack.txt"
-                qualifiers=""
-                type="raw" />
-            <file
-                name="ladygaga"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/raw/ladygaga.txt"
-                qualifiers=""
-                type="raw" />
-            <file
-                name="main_activity"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/layout/main_activity.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="feed"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/layout/feed.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="main_activity"
-                path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/layout-large/main_activity.xml"
-                qualifiers="large-v4"
-                type="layout" />
+                name="ic_launcher"
+                path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
         </source>
-        <source path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/build/generated/res/rs/debug" />
-        <source path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/build/generated/res/generated/debug" />
+        <source path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/build/generated/res/rs/debug" />
+        <source path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/debug/res" />
+        <source path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/debug/res" />
     </dataSet>
 
 </merger>

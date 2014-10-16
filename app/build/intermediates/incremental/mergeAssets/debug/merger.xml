@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/assets" />
+        <source path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/debug/assets" />
+        <source path="/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/debug/assets" />
     </dataSet>
 
 </merger>

@@ -6,4 +6,4 @@
         android:showAsAction="never"
         android:title="@string/menu_settings"/>
 
-</menu><!-- From: file:/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/menu/feed.xml -->
+</menu><!-- From: file:/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/menu/feed.xml -->

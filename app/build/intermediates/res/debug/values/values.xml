@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="app_name">FragmentsLab</string>
@@ -9,7 +9,7 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_feed_fragment">FeedFragment</string>
     <string name="title_activity_friends_fragment">FriendsFragment</string>
-    <!-- From: file:/home/martin_yeh/AndroidstudioProjects/FragmentsLab/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/martin-yeh/AndroidStudioProjects/FragmentLab/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

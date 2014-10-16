@@ -5,7 +5,9 @@ import android.app.ListFragment;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -27,6 +29,8 @@ public class FriendsFragment extends ListFragment {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+        Log.i(TAG, "FriendsFragment onCreate");
+
 		// use different layout definition, depending on whether device is pre-
 		// or post-honeycomb
 
@@ -41,6 +45,8 @@ public class FriendsFragment extends ListFragment {
 	@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
+
+        Log.i(TAG, "FriendsFragment onAttach");
 
 		// Make sure that the hosting Activity has implemented
 		// the SelectionListener callback interface. We need this
@@ -57,6 +63,16 @@ public class FriendsFragment extends ListFragment {
 		}
 	}
 
+    /*@Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
+
+        Log.i(TAG, "FriendsFragment onCreateView");
+
+        return inflater.inflate(R.layout.main_activity, container, false);
+    }*/
+
+
 	// Note: ListFragments come with a default onCreateView() method.
 	// For other Fragments you'll normally implement this method.
 	// 	@Override
@@ -68,7 +84,8 @@ public class FriendsFragment extends ListFragment {
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 
-		Log.i(TAG, "Entered onActivityCreated()");
+        Log.i(TAG, "FriendsFragment onActivityCreated");
+
 		
 	    if (savedInstanceState != null) {
 	    	
@@ -123,5 +140,53 @@ public class FriendsFragment extends ListFragment {
 		return getFragmentManager().findFragmentById(R.id.feed_frag) != null;
 
 	}
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        Log.i(TAG, "FriendsFragment onStart");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        Log.i(TAG, "FriendsFragment onResume");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        Log.i(TAG, "FriendsFragment onPause");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        Log.i(TAG, "FriendsFragment onStop");
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+
+        Log.i(TAG, "FriendsFragment onDestroyView");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        Log.i(TAG, "FriendsFragment onDestroy");
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        Log.i(TAG, "FriendsFragment onDetach");
+    }
 
 }

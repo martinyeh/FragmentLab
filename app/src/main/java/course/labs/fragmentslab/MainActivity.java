@@ -19,25 +19,22 @@ public class MainActivity extends Activity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+        Log.i(TAG, "MainActivity onCreate");
+
 		setContentView(R.layout.main_activity);
 
         // If the layout is single-pane, create the FriendsFragment
 		// and add it to the Activity
 
 		if (!isInTwoPaneMode()) {
-
-
             mFriendsFragment = new FriendsFragment();
 
-                //TODO 1 - add the FriendsFragment to the fragment_container
-
-                // add fragment to the fragment container layout
+            // add fragment to the fragment container layout
             FragmentTransaction transaction = getFragmentManager().beginTransaction();
             transaction.replace(R.id.fragment_container, mFriendsFragment);
-            transaction.addToBackStack(null);
             transaction.commit();
 
-			
 		} else {
 
 			// Otherwise, save a reference to the FeedFragment for later use					
@@ -48,7 +45,6 @@ public class MainActivity extends Activity implements
 
         if (savedInstanceState != null) {
 
-
             // Restore last state for checked position.
             mPosition = savedInstanceState.getInt("pos", 0);
             Log.i(TAG, "MainActivity position:"+ mPosition);
@@ -57,7 +53,6 @@ public class MainActivity extends Activity implements
 
             if (isInTwoPaneMode())
                 this.onItemSelected(mPosition);
-
 
         }
 		
@@ -90,8 +85,6 @@ public class MainActivity extends Activity implements
 		// If in single-pane mode, replace single visible Fragment
 
 		if (!isInTwoPaneMode()) {
-
-             //TODO 2 - replace the fragment_container with the FeedFragment
             Log.i(TAG, "replace the fragment_container");
 
 			 FragmentTransaction transaction = getFragmentManager().beginTransaction();
@@ -119,6 +112,41 @@ public class MainActivity extends Activity implements
 		outState.putInt("pos", mPosition);
         getFragmentManager().putFragment(outState, "mFriendsFragment", mFriendsFragment);
 	}
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Log.i(TAG, "MainActivity onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        Log.i(TAG, "MainActivity onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        Log.i(TAG, "MainActivity onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        Log.i(TAG, "MainActivity onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        Log.i(TAG, "MainActivity onDestroy");
+    }
 
 
 }
